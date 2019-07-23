@@ -40,7 +40,8 @@ footer, header, hgroup, menu, nav, section {
 a{
 	text-decoration: none;
 	text-transform: none;
-	color: #4A90E2;
+	color: #4ae277;
+	/* 4A90E2 */
 }
 
 body {
@@ -50,7 +51,8 @@ body {
 	-webkit-font-smoothing : antialiased;
 	font-size: 19px;
 	background-color: #FEFEFE;
-	color: #04143A;
+	color: #043a10; 
+	/* 04143A */
 }
 ol, ul {
 	list-style: none;
@@ -102,15 +104,17 @@ h1.name {
 	font-size: 70px;
 	font-weight: 300;
 	display: inline-block;
+	color: #335e33
 }
 
 .job-title {
 	vertical-align: top;
-	background-color: #D9E7F8;
-	color: #4A90E2;
+	background-color: #d7dfda;
+	/* 0a366b */
+	color: #5ea06c;
 	font-weight: 600;
 	margin-top: 5px;
-	margin-left: 20px;
+	margin-left: 0px;
 	border-radius: 5px;
 	display: inline-block;
 	padding: 15px 25px;
@@ -120,12 +124,12 @@ h1.name {
 	display: block;
 	font-size: 24px;
 	font-weight: 300;
-	color: #81899C;
+	color: #76b17f;
 	margin-top: 10px;
 }
 
 .lead {
-	font-size: 44px;
+	font-size: 27px;
 	font-weight: 300;
 	margin-top: 60px;
 	line-height: 55px;
@@ -146,6 +150,7 @@ h1.name {
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 15px;
+	color: 335e33;
 }
 
 .list-card {
@@ -159,7 +164,7 @@ h1.name {
 
 .list-card .exp {
 	margin-right: 15px;
-	color: #4A90E2;
+	color: #61a778;
 	font-weight: 600;
 	width: 100px;
 }
@@ -171,14 +176,16 @@ h1.name {
 .list-card h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #5B6A9A;
+	color: #5b9a6b;
+	/* 5B6A9A */
 	line-height: 26px;
 	margin-bottom: 8px;
 }
 
 .list-card div span {
 	font-size: 16px;
-	color: #81899C;
+	color: #819c8a;
+	/* 81899C */
 	line-height: 22px;
 }
 
@@ -196,7 +203,7 @@ h1.name {
 .card {
 	width: 47.9%;
 	height: 200px;
-	background-color: #EEF0F7;
+	background-color: #d7dfda;
 	display: inline-block;
 	margin: 7px 5px;
 	vertical-align: top;
@@ -222,7 +229,8 @@ h1.name {
 .skill-level span {
 	font-size: 35px;
 	font-weight: 300;
-	color: #5B6A9A;
+	color: #5b9a6e;
+	/* 5B6A9A */
 	vertical-align: top;
 }
 
@@ -231,7 +239,8 @@ h1.name {
 	font-weight: 300;
 	display: inline-block;
 	vertical-align: top;
-	color: #5B6A9A;
+	color: #448156;
+		/* 5B6A9A */
 	letter-spacing: -5px;
 }
 
@@ -247,12 +256,14 @@ h1.name {
 .skill-meta h3 {
 	font-size: 20px;
 	font-weight: 800;
-	color: #5B6A9A;
+	color: #5b9a6e;
+		/* 5B6A9A */
 	margin-bottom: 5px;
 }
 
 .skill-meta span{
-	color: #81899C;
+	color: #5b9a6e;
+	/* 81899C */
 	line-height: 20px;
 	font-size: 16px;
 }
@@ -281,7 +292,8 @@ ol::after {
 	width: 0;
 	height: 0;
   	border-radius: 10px;
-	border: 0px solid #31708F;
+	border: 0px solid #318f58;
+	/* 31708F */
 }
 ol::before {
 	left: -5px;
@@ -290,7 +302,8 @@ ol::after {
 	right: -10px;
 	border: 0px solid transparent;
 	border-right: 0;
-	border-left: 20px solid #31708F;
+	border-left: 20px solid #318f58;
+	/* 31708F */
   	border-radius: 3px;
 }
 
@@ -298,7 +311,7 @@ ol::after {
 li {
 	position: relative;
 	display: inline-block;
-	float: left;
+	float: none;
 	width: 25%;
   	height: 50px;
 }
@@ -308,7 +321,8 @@ li .line {
   left: 1%;
   font-size: 20px;
   font-weight: 600;
-  color: #04143A;
+  color: #335e33;
+  /* 04143A */
 }
 li .point {
 	content: "";
@@ -319,8 +333,9 @@ li .point {
 	height: 8px;
 	border: 4px solid #fff;
 	border-radius: 10px;
-	background: #4A90E2;
-  position: absolute;
+	background: #436e4b;
+	/* 4A90E2 */	
+  	position: absolute;
 }
 li .description {
   display: none;
@@ -333,7 +348,8 @@ li .description {
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
-  color: #5B6A9A;
+  color: #61a778;
+  /* 5B6A9A */
 }
 .description::before {
   content: '';
@@ -350,13 +366,15 @@ li .description {
 
 .timeline .date{
 	font-size: 14px;
-	color: #81899C;
+	color: #819c8d;
+	/* 81899C */
 	font-weight: 300;
 }
 
 /* ---- Hover effects ---- */
 li:hover {
-  color: #48A4D2;
+  color: rgb(72, 210, 102);
+  /* 48A4D2 */
 }
 li .description {
   display: block;
