@@ -7,26 +7,22 @@ const paths = {
     srcHTML: 'src/**/*.html',
     srcCSS: 'src/**/*.css',
     srcJS: 'src/**/*.js',
-    tmp: 'tmp',
-    tmpIndex: 'tmp/**/*.html',
-    tmpCSS: 'tmp/**/*.css',
-    tmpJS: 'tmp/**/*.js',
-    dist: 'dist',
-    distIndex: 'tmp/**/*.html',
-    distCSS: 'dist/**/*.css',
-    distJS: 'dist/**/*.js'
+    docs: 'docs',
+    docsIndex: 'docs/**/*.html',
+    docsCSS: 'docs/**/*.css',
+    docsJS: 'docs/**/*.js'
 };
 
 gulp.task('html', () => {
-    return gulp.src(paths.srcHTML).pipe(gulp.dest(paths.tmp));
+    return gulp.src(paths.srcHTML).pipe(gulp.dest(paths.docs));
 });
 
 gulp.task('css', () => {
-    return gulp.src(paths.srcCSS).pipe(gulp.dest(paths.tmp));
+    return gulp.src(paths.srcCSS).pipe(gulp.dest(paths.docs));
 });
 
 gulp.task('js', () => {
-    return gulp.src(paths.srcJS).pipe(gulp.dest(paths.tmp));
+    return gulp.src(paths.srcJS).pipe(gulp.dest(paths.docs));
 });
 
 gulp.task('default', () => {
