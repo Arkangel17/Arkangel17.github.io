@@ -153,41 +153,6 @@ h1.name {
 	color: 335e33;
 }
 
-.list-card {
-	margin: 30px 0;
-}
-
-.list-card .exp , .list-card div{
-	display: inline-block;
-	vertical-align: top;
-}
-
-.list-card .exp {
-	margin-right: 15px;
-	color: #61a778;
-	font-weight: 600;
-	width: 100px;
-}
-
-.list-card div {
-	width: 70%;
-}
-
-.list-card h3 {
-	font-size: 20px;
-	font-weight: 600;
-	color: #5b9a6b;
-	/* 5B6A9A */
-	line-height: 26px;
-	margin-bottom: 8px;
-}
-
-.list-card div span {
-	font-size: 16px;
-	color: #819c8a;
-	/* 81899C */
-	line-height: 22px;
-}
 
 /*skill and intrests ends*/
 
@@ -220,53 +185,6 @@ h1.name {
 	cursor: pointer;
 }
 
-
-.skill-level {
-	display: inline-block;
-	max-width: 160px;
-}
-
-.skill-level span {
-	font-size: 35px;
-	font-weight: 300;
-	color: #5b9a6e;
-	/* 5B6A9A */
-	vertical-align: top;
-}
-
-.skill-level h2 {
-	font-size: 95px;
-	font-weight: 300;
-	display: inline-block;
-	vertical-align: top;
-	color: #448156;
-		/* 5B6A9A */
-	letter-spacing: -5px;
-}
-
-.skill-meta {
-	vertical-align: top;
-	display: inline-block;
-	max-width: 300px;
-	text-align: left;
-	margin-top: 15px;
-	margin-left: 15px;
-}
-
-.skill-meta h3 {
-	font-size: 20px;
-	font-weight: 800;
-	color: #5b9a6e;
-		/* 5B6A9A */
-	margin-bottom: 5px;
-}
-
-.skill-meta span{
-	color: #5b9a6e;
-	/* 81899C */
-	line-height: 20px;
-	font-size: 16px;
-}
 
 /* Achievements ends */
 
